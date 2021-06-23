@@ -1,6 +1,6 @@
 package com.luxoft.codingTask56549.integrationTests;
 
-import com.luxoft.codingTask56549.DataSnapshotRepository;
+import com.luxoft.codingTask56549.repositories.DataSnapshotRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
