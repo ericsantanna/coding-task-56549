@@ -102,6 +102,18 @@ public class DataSnapshotService {
             throw new Exception("Line does not have the required number of fields");
         }
 
+        if(fields[0].length() > 255) {
+            throw new Exception("Field 1 is too big");
+        }
+
+        if(fields[1].length() > 255) {
+            throw new Exception("Field 2 is too big");
+        }
+
+        if(fields[2].length() > 255) {
+            throw new Exception("Field 3 is too big");
+        }
+
         if(fields[3].length() != 13) {
             throw new Exception("Not a valid timestamp");
         }
