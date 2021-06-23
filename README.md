@@ -15,9 +15,9 @@
 Execute with `mvn spring-boot:run`
 
 #### Endpoints:
-POST http://localhost:8080/data-snapshots/upload
-GET http://localhost:8080/data-snapshots/<primary_key>
-DELETE http://localhost:8080/data-snapshots/<primary_key>
+POST http://localhost:8080/data-snapshots/upload  
+GET http://localhost:8080/data-snapshots/<primary_key>  
+DELETE http://localhost:8080/data-snapshots/<primary_key>  
 
 #### Or navigate to src/test/resources and execute the scripts:
 - `bash upload.sample.100.sh`
